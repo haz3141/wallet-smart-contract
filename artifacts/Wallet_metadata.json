@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "accounts",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "accountOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "etherBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "accountId",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Wallet.sol": "Wallet"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Wallet.sol": {
+			"keccak256": "0x80add7fc753ad9c246251872663b15ec2681d5f6ba67bc02b993642f29905784",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c6e077135344de798fe350cfd8dc35aa6f1cabb3fa3f7919cfe759a78ddf52ed",
+				"dweb:/ipfs/QmSyBmA9cjw1qEzvqFWQq7FoLCGJTQXYXRiMWCX5qphBsW"
+			]
+		}
+	},
+	"version": 1
+}
