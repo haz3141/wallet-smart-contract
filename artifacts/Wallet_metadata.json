@@ -8,9 +8,9 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"name": "accounts",
@@ -32,6 +32,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositEther",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -63,11 +70,11 @@
 	},
 	"sources": {
 		"Wallet.sol": {
-			"keccak256": "0x80add7fc753ad9c246251872663b15ec2681d5f6ba67bc02b993642f29905784",
+			"keccak256": "0xdf3bd2de5acceaf0c8cdd1c69949cc5e3da9329b65e17d79056b09baba033799",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c6e077135344de798fe350cfd8dc35aa6f1cabb3fa3f7919cfe759a78ddf52ed",
-				"dweb:/ipfs/QmSyBmA9cjw1qEzvqFWQq7FoLCGJTQXYXRiMWCX5qphBsW"
+				"bzz-raw://c018540e2f381d8296a9f871988ae3b63a8bc4cfa4f9edd3fd4ef634698573bf",
+				"dweb:/ipfs/QmZeyVu4jTnrYbcVLLyRcPRdvYfEwhbYaAUT9Hf59i7ekz"
 			]
 		}
 	},
