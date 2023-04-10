@@ -40,6 +40,19 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_withdrawalRequest",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawEther",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -70,11 +83,11 @@
 	},
 	"sources": {
 		"Wallet.sol": {
-			"keccak256": "0xdf3bd2de5acceaf0c8cdd1c69949cc5e3da9329b65e17d79056b09baba033799",
+			"keccak256": "0x39d188b282e3a9816a36dab42a983f877dcfc506b8a36cdf6534ff456130670e",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://c018540e2f381d8296a9f871988ae3b63a8bc4cfa4f9edd3fd4ef634698573bf",
-				"dweb:/ipfs/QmZeyVu4jTnrYbcVLLyRcPRdvYfEwhbYaAUT9Hf59i7ekz"
+				"bzz-raw://7e968022103f573b9599312b1a31187a5d8bf4897e82797c0d7620ee7dfc59a0",
+				"dweb:/ipfs/QmVCa7aiaFgg8xsp3yjMiDtdWiWUQEPnxm6F6nBmi7Ajp3"
 			]
 		}
 	},
